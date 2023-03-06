@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Aside from './Layouts/Aside/Aside';
-import Nav from './Layouts/Nav/Nav';
-import Footer from './Layouts/Footer/Footer';
+import {Aside,Nav,Footer} from './Layouts';
 import {Dashboard,Visions} from './Layouts/Content';
 
 class App extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-class Aside extends Component {
+export class Aside extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -129,4 +129,4 @@ class Aside extends Component {
 }
 
 
-export default Aside;
+// export default Aside;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer(props) {
+export function Footer(props) {
     return (
         <footer className="footer py-4  ">
             <div className="container-fluid">
@@ -37,4 +37,4 @@ function Footer(props) {
     );
 }
 
-export default Footer;
+// export default Footer;
