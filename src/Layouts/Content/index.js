@@ -1,2 +1,1 @@
-export * from "./Default/Dashboard"
-export * from "./Vision"
+export * from "./Dashboard"

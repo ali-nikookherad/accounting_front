@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import ListGroup from 'react-bootstrap/ListGroup';
 import collect from 'collect.js';
 import { InfoModal } from '../../../../Components';
-import { Price, Plan } from '../../Vision';
+import { Price, Plan } from '..';
 
 export class Vision extends React.Component {
     constructor(props) {
@@ -81,7 +81,7 @@ export class Vision extends React.Component {
                 <td>
                     <InfoModal
                         button="info"
-                        body={<ListGroup as="ol" numbered className='p-0'>{this.plans}</ListGroup>}
+                        body={<ListGroup as="ol"  className='p-0'>{this.plans}</ListGroup>}
                         title="نقشه راه"
                         closeButtonTitle="متوجه شدم"
                     />

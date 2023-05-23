@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import {Aside,Nav,Footer} from './Layouts';
-import {Dashboard,Visions} from './Layouts/Content';
+import {Dashboard} from './Layouts/Content';
+import { Visions } from './Layouts/Plugins';
 
 class App extends Component {
   constructor(props) {

@@ -4,7 +4,7 @@ import { ListGroup, Badge } from 'react-bootstrap';
 export function Price(props) {
     return (
         <ListGroup.Item as="li">
-            <Badge bg='primary'>
+            <Badge bg='primary' className='text-nowrap'>    
                 {props.price.title}
             </Badge>
             <p className='opacity-5'>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { ThreeCircles } from 'react-loader-spinner'
 import { getVisonsEndPoint } from '../../../../EndPoints';
-import { Vision, visionPlanStore, togglePlanAction } from '../../Vision';
+import { Vision, visionPlanStore, togglePlanAction, Create } from '..';
 import './Visions.css'
 import collect from 'collect.js';
 
@@ -81,7 +81,8 @@ export class Visions extends Component {
                                 </div>
                             </div>
                             <div className="px-3 my-2">
-                                <button className='btn btn-outline-success'><Link to="/visions/create" className='text-decoration-none'>ساخت هدف جدید</Link></button>
+                                <Create />  
+
                             </div>
                             <div className="card-body px-0 pb-2">
                                 <div className="table-responsive p-0">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LargeCard, MedCard, SmallCard } from '../../../Components';
+import { LargeCard, MedCard, SmallCard } from '../../Components';
 
 export class Dashboard extends Component {
   constructor(props) {
